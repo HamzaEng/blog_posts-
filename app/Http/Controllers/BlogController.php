@@ -15,7 +15,7 @@ class BlogController extends Controller
     public function index()
     {        
         return view('/blog.home', [
-            'posts' => blog::orderBy('updated_at', 'desc')->paginate(3)
+            'posts' => blog::orderBy('updated_at', 'desc')->get()
         ]);
     }
 
