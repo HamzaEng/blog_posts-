@@ -1,2 +1,1 @@
-# First project 
-Laravel CRUD 
+# blog_posts-
