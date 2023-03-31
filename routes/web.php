@@ -36,3 +36,4 @@ Route::delete('/blog/{id}', [BlogController::class, 'destroy']);
  */
 Route::get('/blog/about', [BlogController::class, 'about']);
 Route::resource('/blog', BlogController::class);
+Route::get('/', [BlogController::class, 'index']);
